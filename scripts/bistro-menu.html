@@ -1,0 +1,191 @@
+<!doctype html>
+<!--
+  Belle Amie Bistro sample menu (the PDF behind the bistro's QR code).
+  Regenerate public/assets/docs/belle-amie-bistro-menu.pdf after editing:
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --no-pdf-header-footer \
+    --print-to-pdf=public/assets/docs/belle-amie-bistro-menu.pdf scripts/bistro-menu.html
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Belle Amie Bistro – Menu</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Georgia, 'Times New Roman', serif;
+        color: #2b2620;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .page {
+        width: 210mm;
+        height: 297mm;
+        padding: 14mm 18mm;
+        background: #fbf7ef;
+        page-break-after: always;
+        display: flex;
+        flex-direction: column;
+      }
+      .page:last-child {
+        page-break-after: auto;
+      }
+      header {
+        background: #1d1b19;
+        margin: -14mm -18mm 10mm;
+        padding: 10mm 18mm 8mm;
+        text-align: center;
+        color: #f3e9d2;
+      }
+      header img {
+        height: 22mm;
+      }
+      header h1 {
+        font-weight: normal;
+        letter-spacing: 4px;
+        font-size: 26pt;
+        margin-top: 4mm;
+      }
+      header p {
+        color: #c9a45c;
+        font-style: italic;
+        font-size: 11pt;
+        margin-top: 1mm;
+      }
+      .cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0 14mm;
+        flex: 1;
+      }
+      h2 {
+        font-weight: normal;
+        font-size: 14pt;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #9b7631;
+        border-bottom: 1px solid #c9a45c;
+        padding-bottom: 1.5mm;
+        margin: 6mm 0 3mm;
+      }
+      h2 small {
+        float: right;
+        font-size: 8.5pt;
+        letter-spacing: 0.5px;
+        text-transform: none;
+        color: #8a8070;
+        font-style: italic;
+        padding-top: 1.5mm;
+      }
+      .dish {
+        margin-bottom: 3.2mm;
+        break-inside: avoid;
+      }
+      .dish div {
+        display: flex;
+        justify-content: space-between;
+        gap: 4mm;
+        font-size: 11pt;
+        font-weight: bold;
+      }
+      .dish p {
+        font-size: 9pt;
+        color: #6a6155;
+        font-style: italic;
+        margin-top: 0.6mm;
+        padding-right: 12mm;
+      }
+      footer {
+        border-top: 1px solid #c9a45c;
+        padding-top: 3mm;
+        text-align: center;
+        font-size: 8.5pt;
+        color: #8a8070;
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page">
+      <header>
+        <img src="../public/assets/img/boutique-hotels-logo.svg" alt="" />
+        <h1>BELLE AMIE BISTRO</h1>
+        <p>Breakfast · Lunch · Dinner</p>
+      </header>
+      <div class="cols">
+        <div>
+          <h2>Breakfast <small>06:30 – 10:30</small></h2>
+          <div class="dish"><div><span>Continental Basket</span><span>$12</span></div><p>Croissant, pain au chocolat, toast, butter, house jams, seasonal fruit</p></div>
+          <div class="dish"><div><span>Eggs Your Way</span><span>$14</span></div><p>Two farm eggs, chicken sausage, grilled tomato, sautéed mushrooms, toast</p></div>
+          <div class="dish"><div><span>Avocado Toast</span><span>$13</span></div><p>Sourdough, smashed avocado, poached egg, chilli flakes, lime</p></div>
+          <div class="dish"><div><span>Mas Huni</span><span>$11</span></div><p>Maldivian tuna, fresh coconut and onion, served with warm roshi and black tea</p></div>
+          <div class="dish"><div><span>Buttermilk Pancakes</span><span>$12</span></div><p>Maple syrup, berries, whipped cream</p></div>
+
+          <h2>Starters</h2>
+          <div class="dish"><div><span>Tuna Tartare</span><span>$16</span></div><p>Yellowfin tuna, avocado, sesame, citrus soy, crispy wonton</p></div>
+          <div class="dish"><div><span>Caesar Salad</span><span>$13</span></div><p>Cos lettuce, parmesan, croutons, anchovy dressing · add grilled chicken $4</p></div>
+          <div class="dish"><div><span>Coconut Prawn Soup</span><span>$12</span></div><p>Lemongrass, kaffir lime, fresh coconut milk</p></div>
+          <div class="dish"><div><span>Burrata & Heirloom Tomato</span><span>$17</span></div><p>Basil oil, aged balsamic, toasted focaccia</p></div>
+        </div>
+        <div>
+          <h2>Mains <small>12:00 – 22:30</small></h2>
+          <div class="dish"><div><span>Grilled Reef Fish</span><span>$28</span></div><p>Catch of the day, lemon butter, crushed potatoes, greens</p></div>
+          <div class="dish"><div><span>Maldivian Fish Curry</span><span>$24</span></div><p>Mild coconut curry, steamed rice, papadum, mango chutney</p></div>
+          <div class="dish"><div><span>Beef Tenderloin</span><span>$38</span></div><p>200 g grain-fed, truffle mash, asparagus, red wine jus</p></div>
+          <div class="dish"><div><span>Chicken Supreme</span><span>$26</span></div><p>Roasted chicken breast, ratatouille, thyme jus</p></div>
+          <div class="dish"><div><span>Seafood Linguine</span><span>$27</span></div><p>Prawns, calamari, mussels, cherry tomato, garlic, white wine</p></div>
+          <div class="dish"><div><span>Wild Mushroom Risotto</span><span>$22</span></div><p>Arborio rice, parmesan, truffle oil (vegetarian)</p></div>
+          <div class="dish"><div><span>Bistro Burger</span><span>$21</span></div><p>Wagyu patty, cheddar, caramelised onion, brioche, fries</p></div>
+        </div>
+      </div>
+      <footer>All prices are in US dollars and subject to 10% service charge and applicable taxes.<br />Please inform our team of any allergies or dietary requirements.</footer>
+    </section>
+
+    <section class="page">
+      <header>
+        <img src="../public/assets/img/boutique-hotels-logo.svg" alt="" />
+        <h1>BELLE AMIE BISTRO</h1>
+        <p>Desserts · Afternoon Tea · Drinks</p>
+      </header>
+      <div class="cols">
+        <div>
+          <h2>Desserts</h2>
+          <div class="dish"><div><span>Chocolate Fondant</span><span>$11</span></div><p>Warm dark chocolate, vanilla bean ice cream</p></div>
+          <div class="dish"><div><span>Crème Brûlée</span><span>$10</span></div><p>Madagascar vanilla, almond biscotti</p></div>
+          <div class="dish"><div><span>Tropical Fruit Platter</span><span>$9</span></div><p>Papaya, pineapple, watermelon, passion fruit</p></div>
+          <div class="dish"><div><span>Coconut Panna Cotta</span><span>$10</span></div><p>Mango coulis, toasted coconut</p></div>
+
+          <h2>English Afternoon Tea <small>15:00 – 18:00</small></h2>
+          <div class="dish"><div><span>Afternoon Tea for Two</span><span>$35</span></div><p>Finger sandwiches, scones with clotted cream and jam, petit fours, a pot of tea or coffee each</p></div>
+
+          <h2>Coffee & Tea</h2>
+          <div class="dish"><div><span>Espresso / Americano</span><span>$4 / $5</span></div></div>
+          <div class="dish"><div><span>Cappuccino / Latte</span><span>$6</span></div></div>
+          <div class="dish"><div><span>Selection of Teas</span><span>$5</span></div><p>English breakfast, Earl Grey, green, chamomile, peppermint</p></div>
+        </div>
+        <div>
+          <h2>Fresh & Cold</h2>
+          <div class="dish"><div><span>Fresh Juices</span><span>$7</span></div><p>Watermelon, pineapple, orange, lime & mint</p></div>
+          <div class="dish"><div><span>King Coconut</span><span>$6</span></div></div>
+          <div class="dish"><div><span>Smoothies</span><span>$8</span></div><p>Mango & passion fruit · Banana & peanut butter · Mixed berry</p></div>
+          <div class="dish"><div><span>Iced Coffee / Iced Tea</span><span>$6</span></div></div>
+          <div class="dish"><div><span>Soft Drinks</span><span>$4</span></div></div>
+          <div class="dish"><div><span>Mineral Water</span><span>$3 / $5</span></div><p>Still or sparkling, 500 ml / 1 L</p></div>
+
+          <h2>Mocktails</h2>
+          <div class="dish"><div><span>Island Sunset</span><span>$9</span></div><p>Orange, pineapple, grenadine, soda</p></div>
+          <div class="dish"><div><span>Virgin Mojito</span><span>$9</span></div><p>Lime, mint, sugar cane, soda</p></div>
+          <div class="dish"><div><span>Belle Amie Cooler</span><span>$10</span></div><p>Watermelon, basil, lemon, ginger ale</p></div>
+        </div>
+      </div>
+      <footer>To reserve a table, call extension 7 from your room phone or ask our front desk team.<br />All prices are in US dollars and subject to 10% service charge and applicable taxes.</footer>
+    </section>
+  </body>
+</html>

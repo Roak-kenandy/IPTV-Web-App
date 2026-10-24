@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="178" viewBox="0 0 460 178">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3dc9b"/>
+      <stop offset="1" stop-color="#c79a3e"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#gold)" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M30 128 L30 70 L68 40 L106 70 L106 128 Z"/>
+    <path d="M56 128 L56 96 Q68 84 80 96 L80 128"/>
+    <path d="M44 72 L68 53 L92 72"/>
+  </g>
+  <g fill="url(#gold)">
+    <path d="M68 14 l3.2 7.4 8 .6 -6.1 5.2 1.9 7.8 -7-4.2 -7 4.2 1.9-7.8 -6.1-5.2 8-.6 z"/>
+    <path d="M38 22 l2 4.6 5 .4 -3.8 3.2 1.2 4.9 -4.4-2.6 -4.4 2.6 1.2-4.9 -3.8-3.2 5-.4 z"/>
+    <path d="M98 22 l2 4.6 5 .4 -3.8 3.2 1.2 4.9 -4.4-2.6 -4.4 2.6 1.2-4.9 -3.8-3.2 5-.4 z"/>
+  </g>
+  <text x="132" y="92" fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="54" letter-spacing="5">BOUTIQUE</text>
+  <line x1="134" y1="110" x2="440" y2="110" stroke="url(#gold)" stroke-width="2"/>
+  <text x="287" y="148" fill="url(#gold)" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="600" letter-spacing="15" text-anchor="middle">HOTELS</text>
+</svg>

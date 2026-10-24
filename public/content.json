@@ -1,0 +1,1054 @@
+{
+ "roomNumber": "100",
+ "guestName": "Mr. John Smith",
+ "theme": {
+  "primaryColor": "rgba(174,13,13,1.000)",
+  "secondaryColor": "rgba(174,13,13,1.000)",
+  "tertiaryColor": "rgba(251,4,4,1.000)",
+  "alternateColor": "rgba(255,255,255,1.000)",
+  "primaryBackgroundColor": "rgba(0,0,0,1.000)",
+  "secondaryBackgroundColor": "rgba(106,104,104,1.000)",
+  "primaryTextColor": "rgba(255,255,255,1.000)",
+  "secondaryTextColor": "rgba(233,233,233,0.863)",
+  "alternateTextColor": "rgba(99,203,255,1.000)",
+  "successColor": "rgba(55,225,171,1.000)",
+  "errorColor": "rgba(253,103,103,1.000)",
+  "warningColor": "rgba(250,224,66,1.000)",
+  "infoColor": "rgba(49,90,252,1.000)",
+  "focusButtonFillColor": "rgba(174,13,13,1.000)",
+  "focusButtonOutlineColor": "rgba(174,13,13,1.000)",
+  "unfocusButtonFillColor": "rgba(255,255,255,0.000)",
+  "unfocusButtonOutlineColor": "rgba(255,255,255,1.000)",
+  "selectedButtonFillColor": "rgba(252,253,253,1.000)",
+  "selectedButtonOutlineColor": "rgba(174,13,13,1.000)",
+  "disableButtonFillColor": "rgba(187,187,187,1.000)",
+  "disableButtonOutlineColor": "rgba(171,171,171,1.000)",
+  "splashButtonFillColor": "rgba(107,214,255,0.502)",
+  "splashButtonOutlineolor": "rgba(74,204,254,0.424)",
+  "hoverButtonFillColor": "rgba(240,240,240,0.671)",
+  "hoverButtonOutlineolor": "rgba(240,240,240,0.906)"
+ },
+ "logo": "assets/img/boutique-hotels-logo.svg",
+ "appBar": {
+  "roomIcon": "assets/img/1706611920957---f71c99d2-a6cc-4469-8623-d364f796e033-1eed59.png",
+  "timeIcon": "assets/img/1706611921193---3efb9f31-b9ea-4d63-820a-52434fad396d-9791fc.png",
+  "dateIcon": "assets/img/1706611921702---29cdbea8-c7b1-4ccb-9651-942d4b7c9d44-c020b4.png"
+ },
+ "footer": {
+  "guide": "QUICK PRESS I",
+  "homeIcon": "assets/img/30b3d6b7-380b-4ac0-9c69-21f705885b31-ba109-a13dea.png",
+  "tvIcon": "assets/img/6f6954b6-b33d-4429-a2e3-e157c6afbe4f-23101-8e4f98.png"
+ },
+ "drawerBackText": "Tap Back on your Remote Control to close",
+ "welcome": {
+  "title": "Welcome to Boutique Hotels",
+  "video": "assets/video/welcome-resort.mp4",
+  "image": "assets/video/welcome-resort.jpg"
+ },
+ "home": {
+  "slideIntervalSec": 10,
+  "music": "assets/audio/lobby-time.mp3",
+  "slides": [
+   "assets/img/home-lobby.jpg",
+   "assets/img/home-sunset-lagoon.jpg",
+   "assets/img/home-entrance-dusk.jpg",
+   "assets/img/home-pavilion-dusk.jpg",
+   "assets/img/home-villas-night.jpg"
+  ],
+  "menu": [
+   {
+    "id": "live-entertainment",
+    "label": "Live Entertainment",
+    "icon": "assets/img/533ea2f8-86a0-49dd-84a1-3b0f623a40a2-2c31f72cc63b3188b109a-2db897.png",
+    "route": "tv"
+   },
+   {
+    "id": "movies",
+    "label": "Movies",
+    "icon": "assets/img/movies-icon.png",
+    "route": "movies"
+   },
+   {
+    "id": "about-hotel",
+    "label": "About Us",
+    "icon": "assets/img/6e41fc85-163d-47d1-b27e-22a66250fa34-ff9ae974c7c749102f94d-8ff09b.png",
+    "route": "about"
+   },
+   {
+    "id": "accommodation",
+    "label": "Accommodation",
+    "icon": "assets/img/0545568e-6af4-495f-83dc-6b41a2733fd0-5108ce43c69d4ac43f62d-372a7e.png",
+    "route": "section"
+   },
+   {
+    "id": "excursions",
+    "label": "Excursions",
+    "icon": "assets/img/e9f64f45-af9c-47d3-9f74-dde7da16b45e-1d9ee81aad26e6c16da9-d73ce8.png",
+    "route": "section"
+   },
+   {
+    "id": "belle-amie-bistro",
+    "label": "Belle Amie Bistro",
+    "icon": "assets/img/f7776697-db3b-481a-991d-8fb79766c1a3-26b54fd5410a715524e83-00130b.png",
+    "route": "section"
+   }
+  ]
+ },
+ "sections": {
+  "accommodation": {
+   "title": "Accommodation",
+   "kind": "facility",
+   "items": [
+    {
+     "name": "Superior Room",
+     "descriptionHtml": "<p>A comfortable, modern space designed for rest and work. Enjoy premium TV channels and a well-appointed setting tailored for a relaxing stay.</p><p><br></p><p>This room features a queen-size bed and an en-suite shower, making it the perfect retreat for up to two adults.</p>",
+     "image": "assets/img/superior-room.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": [
+      {
+       "label": "Room size:",
+       "valueHtml": "<p><b>* 20 Sqm</b></p><p><br></p>"
+      },
+      {
+       "label": "Bed:",
+       "valueHtml": "<p><b> * One queen-size bed </b></p><p><br></p>"
+      },
+      {
+       "label": "Occupancy:",
+       "valueHtml": "<p><b> * 2 Adults (plus one crib on request)</b></p><p><br></p>"
+      },
+      {
+       "label": "Bathroom:",
+       "valueHtml": "<p><b> * En-suite shower </b></p><p><br></p>"
+      }
+     ]
+    },
+    {
+     "name": "Executive Superior Room",
+     "descriptionHtml": "<p>Elevate your stay in our Executive Superior Room. Designed with extra space for the modern traveler, this room offers a refined atmosphere for both relaxation and productivity. </p><p>This room features a queen-size bed and a sleek en-suite shower, providing a seamless and comfortable experience throughout your visit.</p>",
+     "image": "assets/img/executive-superior-room.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": [
+      {
+       "label": "Room size:",
+       "valueHtml": "<p><b>* 25 Sqm</b></p><p><br></p>"
+      },
+      {
+       "label": "Bed:",
+       "valueHtml": "<p><b> * One queen-size bed </b></p><p><br></p>"
+      },
+      {
+       "label": "Occupancy:",
+       "valueHtml": "<p><b> * 2 Adults (plus one crib on request)</b></p><p><br></p>"
+      },
+      {
+       "label": "Bathroom:",
+       "valueHtml": "<p><b> * En-suite shower </b></p><p><br></p>"
+      }
+     ]
+    },
+    {
+     "name": "Deluxe Room",
+     "descriptionHtml": "<p>Versatility meets style in this spacious 32sqm room. Featuring your choice of two single beds or a king-size bed, plus a separate living area with a sofa, it is ideal for those seeking extra room to breathe. </p><p>Relax in a contemporary setting complete with an en-suite shower and smart amenities.</p>",
+     "image": "assets/img/deluxe-room.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": [
+      {
+       "label": "Room size:",
+       "valueHtml": "<p><b>* 32 Sqm</b></p><p><br></p>"
+      },
+      {
+       "label": "Bed:",
+       "valueHtml": "<p><b>* Two single beds or one king-size bed </b></p><p><br></p><p><b>* One sofa in the separate living area </b></p><p><br></p>"
+      },
+      {
+       "label": "Occupancy:",
+       "valueHtml": "<p><b> * 2 Adults (plus one crib on request)</b></p><p><br></p>"
+      },
+      {
+       "label": "Bathroom:",
+       "valueHtml": "<p><b> * En-suite shower </b></p><p><br></p>"
+      }
+     ]
+    },
+    {
+     "name": "Family Suite",
+     "descriptionHtml": "<p>The ultimate choice for families, this Suite offers a king-size bed and a separate living area with a sofa bed. Designed to comfortably accommodate up to four adults or two adults and two children. </p><p>It provides the space and privacy needed for a perfect family getaway.</p>",
+     "image": "assets/img/family-suite.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": [
+      {
+       "label": "Room size:",
+       "valueHtml": "<p><b>* 37 Sqm</b></p><p><br></p>"
+      },
+      {
+       "label": "Bed:",
+       "valueHtml": "<p><b> * One king-size bed one sofa bed in the separate living area  </b></p><p><br></p>"
+      },
+      {
+       "label": "Occupancy:",
+       "valueHtml": "<p><b> * 4 Adults or 2 Adults and 2 Children</b></p><p><br></p>"
+      },
+      {
+       "label": "Bathroom:",
+       "valueHtml": "<p><b> * En-suite shower </b></p><p><br></p><p><b> * Balcony </b></p><p><br></p>"
+      }
+     ]
+    },
+    {
+     "name": "Premier Business Suite",
+     "descriptionHtml": "<p>Our most exclusive offering at, the Premier Business Suite is tailored for professionals and luxury seekers alike. It features a king-size bed, a separate living area with a sofa bed, and high-end finishes throughout. </p><p>Balance work and relaxation in a sophisticated environment designed for peak productivity.</p>",
+     "image": "assets/img/premier-business-suite.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": [
+      {
+       "label": "Room size:",
+       "valueHtml": "<p><b>* 40 Sqm</b></p><p><br></p>"
+      },
+      {
+       "label": "Bed:",
+       "valueHtml": "<p><b> * One king-size bed and one sofa bed in the separate living area </b></p><p><br></p>"
+      },
+      {
+       "label": "Occupancy:",
+       "valueHtml": "<p><b> * 4 Adults or 2 Adults and 2 Children</b></p><p><br></p>"
+      },
+      {
+       "label": "Bathroom:",
+       "valueHtml": "<p><b> * En-suite shower </b></p><p><br></p><p><b> * Balcony </b></p><p><br></p>"
+      }
+     ]
+    }
+   ]
+  },
+  "belle-amie-bistro": {
+   "title": "Belle Amie Bistro",
+   "kind": "dining",
+   "items": [
+    {
+     "name": "Belle Amie Bistro",
+     "descriptionHtml": "Welcome to Belle Amie Bistro, a cozy and elegant retreat from the city's hustle. Whether you are starting your day with a vibrant breakfast, joining us for a business lunch, or enjoying a romantic dinner, we invite you to experience world-class cuisine served with the warm and attentive care of our team.&nbsp;<br><p><br></p><p><br></p><p>Opening Hours:</p><p>Breakfast: 06:00 – 10:00</p><p>All-Day Dining: 11:00 – 22:30&nbsp;</p>",
+     "image": "assets/img/bistro-dining.jpg",
+     "video": "",
+     "qr": "assets/docs/belle-amie-bistro-menu.pdf",
+     "qrCaption": "Scan to view our menu and reserve a table.",
+     "details": []
+    },
+    {
+     "name": "English Afternoon Tea",
+     "descriptionHtml": "<p>Churros with Raspberry Sauce, Cream Profit, Chocolate Cheese Cake </p><p>Tuna Sandwich, Mini Chicken Burger, Double deck Smoked Salmon Sandwich</p><p>Vegetable Samosa, Fish Finger, Chicken Winglet, Cheese and Fish Doughnut</p><p>Brewed Coffee, Hot Tea, Flavored Juice</p><p><br></p><p>Serve Daily: 15:00 - 18:00 Hrs</p>",
+     "image": "assets/img/bistro-afternoon-tea.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "details": []
+    }
+   ]
+  },
+  "excursions": {
+   "title": "Excursions",
+   "kind": "facility",
+   "items": [
+    {
+     "name": "Submarine Dive",
+     "descriptionHtml": "<p>Imagine yourself cruising through an underwater garden filled with tropical fish. This is exactly what you will experience during your 45-minute dive. Onboard thewhale submarine you will descend to a submerged reef 45 meters beneath thesurface. During the Descent the seabed and different types of reef fish. In most ofthe dives, the submarine is greeted by a school of blue or yellow-striped snappers</p>",
+     "image": "assets/img/836f23cc-0fa6-4f8d-82ad-97cea5909c87-f4c8ef5c86d55f97bc5c-4a7297.jpg",
+     "video": "assets/video/Submarine-ca6824a8d8824458e67f-109fb8ee6e5acb2286dd4-029012.mp4",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Daily Dives",
+     "descriptionHtml": "<p>Some of the region's finest marine life and vibrant dive sites are just a short boat ride away. To ensure a seamless adventure, we partner with premier local dive professionals to offer exceptional daily excursions.</p><p>Excursion Rates (Per Person / Per Dive):</p><p>•\tWith Full Equipment Rental: $90</p><p>•\tWithout Equipment: $80</p><p>Please stop by or contact the Reception to view the current schedule, check weather conditions, and let us manage your entire booking.</p>",
+     "image": "assets/img/25ec3697-6e6d-402d-a470-9661197dac5a-e74bc25f3e2cdf562ba1-5ecd22.jpg",
+     "video": "assets/video/Daily-Dives-new--866abeccb5f268e7f646-73346fb91d48d6fd8fb8-28204e.mp4",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Dive Boat Snorkeling Adventure",
+     "descriptionHtml": "<p>Departure: 08:30 AM | Duration: 3 Hours</p><p>An excellent, budget-friendly option for those who want to discover the beautiful reef tops of the Maldives. This excursion joins our daily dive trips, taking you to two distinct snorkeling locations to explore vibrant marine life from above.</p><p><br></p><p>•\tRate: $55 per person</p><p>•\tIncludes: Standard snorkeling gear &amp; life jacket</p>",
+     "image": "assets/img/98b87382-d31e-4920-abb8-a2770ebe7c63-2b4ead110afab62b37ac1-7378a4.png",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Snorkeling Adventure",
+     "descriptionHtml": "<p>Departure: 08:30 AM | Duration: 3 Hours</p><p>Glide across stunning shades of turquoise water and over pristine coral reefs. This dedicated snorkeling excursion takes you to three different exceptional spots, offering the chance to view diverse fish species and colorful coral ecosystems.</p><p>•\tRate (Minimum 2 Pax): $85 per person</p><p>•\tGroup Rate (Group of 4+): $70 per person</p><p>•\tIncludes: Standard snorkeling gear &amp; life jacket</p>",
+     "image": "assets/img/3da98122-8809-471a-9e13-705c102a8378-717fc4ee646f63cbb979-00a3d2.png",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Snorkeling with Stingrays",
+     "descriptionHtml": "<p>Departure: 09:00 AM | Duration: 3 Hours</p><p>Get up close and personal with majestic, friendly stingrays in their natural shallow-water habitat. Perfect for both swimmers and non-swimmers, this unique experience allows you to observe these beautiful creatures gliding along the ocean floor alongside other incredible local marine life.</p><p>•\tRate (Minimum 2 Pax): $95 per person</p><p>•\tGroup Rate (Group of 4+): $85 per person</p><p>•\tIncludes: Standard snorkeling gear &amp; life jacket</p>",
+     "image": "assets/img/21ce4a51-a784-44f9-80d3-a82ca1d2381f-9ce9ef3d3b037e29afad-b6be07.png",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Sandbank Trip & Snorkeling",
+     "descriptionHtml": "<p>Departure: 09:00 AM | Duration: 4 Hours</p><p>Escape the city with a scenic 30 to 45-minute boat ride to an isolated, pure white sandbank. Surrounded by breathtaking shades of turquoise water, this peaceful getaway offers the perfect private setting to stroll, sunbathe, swim, and snorkel at your leisure.</p><p>•\tRate (Minimum 2 Pax): $120 per person</p><p>•\tGroup Rate (Group of 4+): $80 per person</p><p>• Includes: Standard snorkeling gear &amp; life jacket<br></p>",
+     "image": "assets/img/5682e1ed-6070-4743-955a-e2745f636042-c0b61aa91b8104ee7e4b4-4b7436.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Dolphin Sunset Cruise",
+     "descriptionHtml": "<p>Departure: 04:00 PM | Duration: 3 Hours</p><p>Set sail in the late afternoon to encounter playful, fun-loving dolphins. Witness them gracefully swim and spin alongside the boat against the backdrop of a mesmerizing Maldivian sunset.</p><p>•\tRate (Minimum 2 Pax): $100 per person</p><p>•\tGroup Rate (Group of 4+): $80 per person</p><p>•\tIncludes: Soft drinks &amp; short-eats (traditional snacks)</p><p>•\tPlease Note: While dolphins are highly abundant in the area, sightings cannot be guaranteed on every trip.</p>",
+     "image": "assets/img/e482aca4-2428-4638-8043-3baaef6595b5-0ac965950b9db0066f6f-fb47ae.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Snorkeling, Dolphins, Fishing & BBQ",
+     "descriptionHtml": "<p>Departure: 02:30 PM | Duration: 5 Hours</p><p>The ultimate Maldivian experience packed into one incredible afternoon. Enjoy a customizable boat journey featuring scenic snorkeling stops, a thrilling cruise to see resident dolphin pods, and a traditional evening fishing session.</p><p>•\tRate (Minimum 2 Pax): $135 per person</p><p>•\tGroup Rate (Group of 4+): $115 per person</p><p>•\tIncludes: Snorkeling gear, fishing gear, bait, life jacket &amp; barbecue </p><p><br></p>",
+     "image": "assets/img/e4885e8f-727d-4ab9-83b6-826925725852-2d9a522cd9e3cd6fe7a0-f9a202.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    },
+    {
+     "name": "Dolphin Watching, Fishing & BBQ",
+     "descriptionHtml": "<p>Departure: 04:00 PM | Duration: 4 Hours</p><p>Watch playful dolphins spin through the waves as you head out to a tranquil night-fishing spot. Cast a line under the starry night sky and enjoy the peaceful stillness of the ocean. Your evening concludes with a delicious barbecue featuring the fresh catch of the night.</p><p>•\tRate (Minimum 2 Pax): $120 per person</p><p>•\tGroup Rate (Group of 4+): $95 per person</p><p>•\tIncludes: Fishing gear, bait &amp; barbecue dinner</p><p><br></p>",
+     "image": "assets/img/f542ab73-bb53-4ae0-99bc-5df8ef7ae6c0-f89af1f05856e4302a79-b9ebea.jpg",
+     "video": "",
+     "qr": "",
+     "qrCaption": "",
+     "detailsLabel": "View Details",
+     "details": []
+    }
+   ]
+  }
+ },
+ "movies": {
+  "title": "Movies on Demand",
+  "subtitle": "Enjoy the latest blockbusters in the comfort of your own Room in Full HD!",
+  "detailsSubtitle": "Browse through, view trailers and tap PLAY to watch!",
+  "castLabel": "CAST",
+  "trailerLabel": "PLAY TRAILER",
+  "watchLabel": "WATCH MOVIE",
+  "hints": {
+   "select": "View details",
+   "navigate": "Browse",
+   "choose": "Choose",
+   "play": "Play",
+   "pause": "Pause / Resume",
+   "seek": "Rewind / Forward 10s",
+   "back": "Back",
+   "stop": "Stop"
+  },
+  "categories": [
+   {
+    "name": "Action",
+    "movies": [
+     {
+      "id": "1917",
+      "title": "1917",
+      "year": 2019,
+      "duration": "1h 59m",
+      "rating": "R",
+      "cast": "George MacKay, Dean-Charles Chapman, Mark Strong",
+      "description": "April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.",
+      "thumbnail": "assets/img/movies/1917-thumb.jpg",
+      "poster": "assets/img/movies/1917.jpg",
+      "trailer": "assets/video/movies/1917-trailer.mp4",
+      "video": "assets/video/movies/1917-movie.mp4"
+     },
+     {
+      "id": "mad-max-fury-road",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "duration": "2h",
+      "rating": "R",
+      "cast": "Tom Hardy, Charlize Theron, Nicholas Hoult",
+      "description": "In a post-apocalyptic wasteland, Max teams up with the rebel warrior Furiosa to flee a tyrannical warlord and his army in an explosive, high-speed chase across the desert.",
+      "thumbnail": "assets/img/movies/mad-max-fury-road-thumb.jpg",
+      "poster": "assets/img/movies/mad-max-fury-road.jpg",
+      "trailer": "assets/video/movies/mad-max-fury-road-trailer.mp4",
+      "video": "assets/video/movies/mad-max-fury-road-movie.mp4"
+     },
+     {
+      "id": "mission-impossible-fallout",
+      "title": "Mission: Impossible – Fallout",
+      "year": 2018,
+      "duration": "2h 27m",
+      "rating": "PG-13",
+      "cast": "Tom Cruise, Henry Cavill, Rebecca Ferguson",
+      "description": "When a mission goes wrong, Ethan Hunt and his IMF team must race against time to stop stolen plutonium from falling into the hands of a terrorist network.",
+      "thumbnail": "assets/img/movies/mission-impossible-fallout-thumb.jpg",
+      "poster": "assets/img/movies/mission-impossible-fallout.jpg",
+      "trailer": "assets/video/movies/mission-impossible-fallout-trailer.mp4",
+      "video": "assets/video/movies/mission-impossible-fallout-movie.mp4"
+     }
+    ]
+   },
+   {
+    "name": "Kids",
+    "movies": [
+     {
+      "id": "the-grinch",
+      "title": "Dr. Seuss' The Grinch",
+      "year": 2018,
+      "duration": "1h 26m",
+      "rating": "PG",
+      "cast": "Benedict Cumberbatch, Cameron Seely, Rashida Jones",
+      "description": "A grumpy Grinch plots to ruin Christmas for the village of Whoville.",
+      "thumbnail": "assets/img/movies/the-grinch-thumb.jpg",
+      "poster": "assets/img/movies/the-grinch.jpg",
+      "trailer": "assets/video/movies/the-grinch-trailer.mp4",
+      "video": "assets/video/movies/the-grinch-movie.mp4"
+     },
+     {
+      "id": "dora",
+      "title": "Dora and the Lost City of Gold",
+      "year": 2019,
+      "duration": "1h 42m",
+      "rating": "PG",
+      "cast": "Isabela Merced, Eugenio Derbez, Michael Peña",
+      "description": "Dora, a teenage explorer, leads her friends on an adventure to save her parents and solve the mystery behind a lost city of gold.",
+      "thumbnail": "assets/img/movies/dora-thumb.jpg",
+      "poster": "assets/img/movies/dora.jpg",
+      "trailer": "assets/video/movies/dora-trailer.mp4",
+      "video": "assets/video/movies/dora-movie.mp4"
+     },
+     {
+      "id": "dolittle",
+      "title": "Dolittle",
+      "year": 2020,
+      "duration": "1h 41m",
+      "rating": "PG",
+      "cast": "Robert Downey Jr., Antonio Banderas, Michael Sheen",
+      "description": "A physician who can talk to animals embarks on an adventure to find a legendary island with a young apprentice and a crew of strange pets.",
+      "thumbnail": "assets/img/movies/dolittle-thumb.jpg",
+      "poster": "assets/img/movies/dolittle.jpg",
+      "trailer": "assets/video/movies/dolittle-trailer.mp4",
+      "video": "assets/video/movies/dolittle-movie.mp4"
+     }
+    ]
+   },
+   {
+    "name": "Comedy",
+    "movies": [
+     {
+      "id": "despicable-me-3",
+      "title": "Despicable Me 3",
+      "year": 2017,
+      "duration": "1h 29m",
+      "rating": "PG",
+      "cast": "Steve Carell, Kristen Wiig, Trey Parker",
+      "description": "Gru meets his long-lost charming, cheerful, and more successful twin brother Dru, who wants to team up with him for one last criminal heist.",
+      "thumbnail": "assets/img/movies/despicable-me-3-thumb.jpg",
+      "poster": "assets/img/movies/despicable-me-3.jpg",
+      "trailer": "assets/video/movies/despicable-me-3-trailer.mp4",
+      "video": "assets/video/movies/despicable-me-3-movie.mp4"
+     },
+     {
+      "id": "playing-with-fire",
+      "title": "Playing with Fire",
+      "year": 2019,
+      "duration": "1h 36m",
+      "rating": "PG",
+      "cast": "John Cena, Keegan-Michael Key, John Leguizamo",
+      "description": "A crew of rugged firefighters meet their match when attempting to rescue three rambunctious kids.",
+      "thumbnail": "assets/img/movies/playing-with-fire-thumb.jpg",
+      "poster": "assets/img/movies/playing-with-fire.jpg",
+      "trailer": "assets/video/movies/playing-with-fire-trailer.mp4",
+      "video": "assets/video/movies/playing-with-fire-movie.mp4"
+     },
+     {
+      "id": "jumanji",
+      "title": "Jumanji: Welcome to the Jungle",
+      "year": 2017,
+      "duration": "1h 59m",
+      "rating": "PG-13",
+      "cast": "Dwayne Johnson, Kevin Hart, Jack Black",
+      "description": "Four teenagers are sucked into a magical video game, and the only way out is to work together as their adult avatars and beat the game.",
+      "thumbnail": "assets/img/movies/jumanji-thumb.jpg",
+      "poster": "assets/img/movies/jumanji.jpg",
+      "trailer": "assets/video/movies/jumanji-trailer.mp4",
+      "video": "assets/video/movies/jumanji-movie.mp4"
+     }
+    ]
+   }
+  ]
+ },
+ "tv": {
+  "instruction": "Tap OK on the Remote Control to view the Channel in Full Screen. Tap OK again to minimise",
+  "categories": [
+   "In-House Channel",
+   "Sports",
+   "Entertainment",
+   "International News",
+   "Documentary",
+   "Kids"
+  ],
+  "channels": [
+   {
+    "id": "INHOUSE",
+    "name": "HOTEL TV",
+    "category": "In-House Channel",
+    "image": "assets/img/boutique-hotels-logo.svg",
+    "video": "assets/video/welcome-resort.mp4"
+   },
+   {
+    "id": "SONY5HD",
+    "name": "SONY SPORTS TEN 5 HD",
+    "category": "Sports",
+    "image": "assets/img/047cd07c-9b2e-4460-badb-12a0398617ed-2c5deb4e25903da7ce110-0118e4.png",
+    "video": "assets/video/channels/SONY5HD.mp4"
+   },
+   {
+    "id": "AXN",
+    "name": "AXN HD",
+    "category": "Entertainment",
+    "image": "assets/img/4655c437-f053-416d-8921-0b80b2761cbe-c294261c102970fefe164-d6eec1.png",
+    "video": "assets/video/channels/AXN.mp4"
+   },
+   {
+    "id": "SSPORT2",
+    "name": "STAR SPORTS SELECT HD 2",
+    "category": "Sports",
+    "image": "assets/img/b67d09f1-4295-485a-9b9d-6a66790a379f-12ab8d31d1ec6cf9ce38-911887.png",
+    "video": "assets/video/channels/SSPORT2.mp4"
+   },
+   {
+    "id": "SONYSP2",
+    "name": "SONY SPORTS TEN 2 HD",
+    "category": "Sports",
+    "image": "assets/img/7c1ba3ac-2ac8-4aff-905e-44194a4438ac-94105a9d0adc5ce5f6a59-9ef546.png",
+    "video": "assets/video/channels/SONYSP2.mp4"
+   },
+   {
+    "id": "STARSP2",
+    "name": "STAR SPORTS HD 2",
+    "category": "Sports",
+    "image": "assets/img/4d0169a9-f946-4fda-b426-080df0e19888-e3bbb6d7ce6b0df8bacc-1eb675.png",
+    "video": "assets/video/channels/STARSP2.mp4"
+   },
+   {
+    "id": "BBCW",
+    "name": "BBC WORLD NEWS",
+    "category": "International News",
+    "image": "assets/img/ea144e55-d460-4f4e-809d-5a27fa153507-6c9cc3f61bdcca425b8e-fff528.png",
+    "video": "assets/video/channels/BBCW.mp4"
+   },
+   {
+    "id": "WARNER",
+    "name": "WARNER TV",
+    "category": "Entertainment",
+    "image": "assets/img/119f9f47-73f5-4d98-85c5-4d27c034805b-a619779bd945478422cc-206fd9.png",
+    "video": "assets/video/channels/WARNER.mp4"
+   },
+   {
+    "id": "HGTV",
+    "name": "HGTV",
+    "category": "Documentary",
+    "image": "assets/img/9f83c36e-46d0-4086-ac11-2628a9224e19-f7f66209103091a83ef91-a8619b.png",
+    "video": "assets/video/channels/HGTV.mp4"
+   },
+   {
+    "id": "NICK",
+    "name": "NICKELODEON",
+    "category": "Kids",
+    "image": "assets/img/95ab5fce-d231-4463-956b-8f3bf059b05c-5597df10c3034e951b110a-a83add.png",
+    "video": "assets/video/channels/NICK.mp4"
+   },
+   {
+    "id": "STARSD",
+    "name": "STAR PLUS  SD",
+    "category": "Entertainment",
+    "image": "assets/img/1e2bcf86-f6a8-4e3e-a5e1-132dd034d545-5a11d1fba71f40110b828-e85899.png",
+    "video": "assets/video/channels/STARSD.mp4"
+   },
+   {
+    "id": "ZEESD",
+    "name": "ZEE TV SD",
+    "category": "Entertainment",
+    "image": "assets/img/1588f7a6-a14e-41bc-a24d-295ec2c10589-9a223d9dd97674714b4d-df618f.png",
+    "video": "assets/video/channels/ZEESD.mp4"
+   },
+   {
+    "id": "SONYBBC",
+    "name": "SONY BBC EARTH",
+    "category": "Documentary",
+    "image": "assets/img/10ee6825-75a9-422b-973a-583437ed6dd4-746a3432e610d45be52f4-52e320.png",
+    "video": "assets/video/channels/SONYBBC.mp4"
+   },
+   {
+    "id": "CINEW",
+    "name": "CINEMA WORLD",
+    "category": "Entertainment",
+    "image": "assets/img/33ea6e44-5889-4577-ae94-0e9e2f795329-2bf48b167a65e536fc76-1be0c5.png",
+    "video": "assets/video/channels/CINEW.mp4"
+   },
+   {
+    "id": "CNN",
+    "name": "CNN",
+    "category": "International News",
+    "image": "assets/img/e46bb673-ac65-4a1b-9a70-817bdf2711c7-5ce35110bd9f57e3aa3a1-81d15f.png",
+    "video": "assets/video/channels/CNN.mp4"
+   },
+   {
+    "id": "SONYPIX",
+    "name": "SONY PIX HD",
+    "category": "Entertainment",
+    "image": "assets/img/23324475-114c-4da4-b11b-ff54c4971212-8ee18d10926b1043ea6a2d-acfe94.png",
+    "video": "assets/video/channels/SONYPIX.mp4"
+   },
+   {
+    "id": "CARTN",
+    "name": "CARTOON NETWORK HD+",
+    "category": "Kids",
+    "image": "assets/img/8c81ff86-df17-4811-a29c-a4d665d33816-9a3d71c10d2e589ab98e8-e30d2d.png",
+    "video": "assets/video/channels/CARTN.mp4"
+   },
+   {
+    "id": "TRACE",
+    "name": "TRACE URBAN  HD",
+    "category": "Entertainment",
+    "image": "assets/img/6e2a751f-6dad-47db-b526-ec4b9928d50f-62e57a6d10616f46fe1010-05cd9e.png",
+    "video": "assets/video/channels/TRACE.mp4"
+   },
+   {
+    "id": "ROCKACTION",
+    "name": "ROCK ACTION",
+    "category": "Entertainment",
+    "image": "assets/img/ed88e27f-b21d-4c01-99d5-3c6241fed38c-ceb6dce8496a964ae1046-f56745.png",
+    "video": "assets/video/channels/ROCKACTION.mp4"
+   },
+   {
+    "id": "DISNEYINTL",
+    "name": "DISNEY INTERNATIONAL",
+    "category": "Kids",
+    "image": "assets/img/5e1bd85d-d47c-4352-a7c4-c5f446ba7486-437764c36c43d7d68df8-ec261d.png",
+    "video": "assets/video/channels/DISNEYINTL.mp4"
+   },
+   {
+    "id": "ZEECL",
+    "name": "ZEE CLASSIC",
+    "category": "Entertainment",
+    "image": "assets/img/780af67b-aa1f-4f4f-87e5-718e50d9f6d7-04df341978e7e2cf97fe-6f7c04.png",
+    "video": "assets/video/channels/ZEECL.mp4"
+   },
+   {
+    "id": "ZOOM",
+    "name": "ZOOM",
+    "category": "Entertainment",
+    "image": "assets/img/33405ae8-f5d0-4134-9bc3-af0f89a36224-102c4c8229a595f6f8e78-68255d.png",
+    "video": "assets/video/channels/ZOOM.mp4"
+   },
+   {
+    "id": "CARTNSD",
+    "name": "CARTOON NETWORK SD",
+    "category": "Kids",
+    "image": "assets/img/21e8b657-bbac-497a-a8c7-7ff6f8066d7b-7108f66cc8bac59592bd6-747da1.png",
+    "video": "assets/video/channels/CARTNSD.mp4"
+   },
+   {
+    "id": "ZEEBLSD",
+    "name": "ZEE BOLLYWOOD SD",
+    "category": "Entertainment",
+    "image": "assets/img/abfa4ae2-7bd6-4914-9c62-7e0b28ec9a86-847fd6371052efcc32908-58e612.png",
+    "video": "assets/video/channels/ZEEBLSD.mp4"
+   },
+   {
+    "id": "SONYTEN1",
+    "name": "SONY SPORTS TEN 1 HD",
+    "category": "Sports",
+    "image": "assets/img/90e8db41-2463-4d01-9134-c5b81eeb1a34-b0838810bc4fcad7c50b-31ac49.png",
+    "video": "assets/video/channels/SONYTEN1.mp4"
+   },
+   {
+    "id": "KBSW",
+    "name": "KBS WORLD HD",
+    "category": "Entertainment",
+    "image": "assets/img/63c4f438-35c1-4bb5-b07d-5695ebb84470-09f100833e1cbf8811ff7-913e76.png",
+    "video": "assets/video/channels/KBSW.mp4"
+   },
+   {
+    "id": "SUPERRIX",
+    "name": "SUPERRIX",
+    "category": "Entertainment",
+    "image": "assets/img/8edba435-f7aa-44d1-99ad-ee8a6732c6f7-8e52ee09304c91f4106eb-f894c2.png",
+    "video": "assets/video/channels/SUPERRIX.mp4"
+   },
+   {
+    "id": "CINEEDGE",
+    "name": "CINEEDGE",
+    "category": "Entertainment",
+    "image": "assets/img/df1b72fc-bf68-4d03-96f3-1e929a5936f0-4bc50b3dffa881016215a-61e663.png",
+    "video": "assets/video/channels/CINEEDGE.mp4"
+   },
+   {
+    "id": "STARSPHD",
+    "name": "STAR SPORTS 1 HD",
+    "category": "Sports",
+    "image": "assets/img/a7247b06-0e87-47ff-8789-8007e947af91-14111aa46ef6102e45895-f046bf.png",
+    "video": "assets/video/channels/STARSPHD.mp4"
+   },
+   {
+    "id": "PLTV",
+    "name": "PLTV",
+    "category": "Sports",
+    "image": "assets/img/8a0e68dd-b436-4ec0-bd8e-c68e5df6d739-2fc329a2ead9d2cdf51f-9023e7.png",
+    "video": "assets/video/channels/PLTV.mp4"
+   },
+   {
+    "id": "EUROSP",
+    "name": "EUROSPORT HD",
+    "category": "Sports",
+    "image": "assets/img/114d8f1a-23d0-4da5-8684-73aa53035447-f2a9e4a1dfa5f41d73e3-38d84c.png",
+    "video": "assets/video/channels/EUROSP.mp4"
+   },
+   {
+    "id": "TLCHD",
+    "name": "TLC HD WORLD",
+    "category": "Documentary",
+    "image": "assets/img/79f34e7e-d6e9-4f85-9c2f-3ef40738c881-59f576bd4c57de41c4106-ebb0a7.png",
+    "video": "assets/video/channels/TLCHD.mp4"
+   },
+   {
+    "id": "ZEECINE",
+    "name": "ZEE CINEMA HD",
+    "category": "Entertainment",
+    "image": "assets/img/5981917d-01b0-4245-9725-e758a4a796da-a18eac5d1a53bad10bb97-ae9870.png",
+    "video": "assets/video/channels/ZEECINE.mp4"
+   },
+   {
+    "id": "COLORS",
+    "name": "COLORS CINEPLEX",
+    "category": "Entertainment",
+    "image": "assets/img/0648755c-0ec1-4429-b873-1aa3d201f1cf-9f6eb7fd87548cba101ec-7a3738.png",
+    "video": "assets/video/channels/COLORS.mp4"
+   },
+   {
+    "id": "DISCHD",
+    "name": "DISCOVERY HD WORLD",
+    "category": "Documentary",
+    "image": "assets/img/1e59f033-0945-4402-835c-47e4b9547dd7-9ff9de75391ddcd8bd08-5863df.png",
+    "video": "assets/video/channels/DISCHD.mp4"
+   },
+   {
+    "id": "SONYMAXHD2",
+    "name": "SONY MAX HD",
+    "category": "Entertainment",
+    "image": "assets/img/38b249de-299f-4ebe-9d9f-4a1539026c2e-ab8c430364b59af13da7-85aa89.png",
+    "video": "assets/video/channels/SONYMAXHD2.mp4"
+   },
+   {
+    "id": "ROCKENT",
+    "name": "ROCK ENTERTAINMENT",
+    "category": "Entertainment",
+    "image": "assets/img/7317604a-e13e-411d-9269-17ce4e99f8f5-b01628be7e2a9ab98577-4e81c0.png",
+    "video": "assets/video/channels/ROCKENT.mp4"
+   },
+   {
+    "id": "ZEETVHD",
+    "name": "ZEE TV HD",
+    "category": "Entertainment",
+    "image": "assets/img/34f6a168-ca30-453f-8791-3f22a34db6c3-6d99f9cd954fc8d09334-79f92d.png",
+    "video": "assets/video/channels/ZEETVHD.mp4"
+   },
+   {
+    "id": "STARGOLD",
+    "name": "STAR GOLD HD",
+    "category": "Entertainment",
+    "image": "assets/img/89beddf1-4afa-4d75-9c52-a0e09ea5824a-9648320386034edc7d3d-d824d2.png",
+    "video": "assets/video/channels/STARGOLD.mp4"
+   },
+   {
+    "id": "COLORSHD",
+    "name": "COLORS HD",
+    "category": "Entertainment",
+    "image": "assets/img/8e93c22e-0952-41f8-8b66-cfa70c2345e9-d5b42484e59c10db83e56-7c9183.png",
+    "video": "assets/video/channels/COLORSHD.mp4"
+   },
+   {
+    "id": "STARPLHD",
+    "name": "STAR PLUS HD",
+    "category": "Entertainment",
+    "image": "assets/img/6f017acc-632a-492e-9909-e8c46c86f79d-9275d128e25271c67e2c-75ccf4.png",
+    "video": "assets/video/channels/STARPLHD.mp4"
+   },
+   {
+    "id": "SONYENTHD",
+    "name": "SONY ENT HD",
+    "category": "Entertainment",
+    "image": "assets/img/e9a70126-8426-410d-b013-43e9d57d09e8-2f79f1e56e3e83287018-3c1247.png",
+    "video": "assets/video/channels/SONYENTHD.mp4"
+   },
+   {
+    "id": "BBCBEE",
+    "name": "BBC CBEEBIES",
+    "category": "Kids",
+    "image": "assets/img/9b802e54-a561-40cd-9005-2c2c005ce1b8-add5ed9683a3c4246bdd-b05ff1.png",
+    "video": "assets/video/channels/BBCBEE.mp4"
+   },
+   {
+    "id": "NICKJRHD",
+    "name": "NICK JUNIOR HD",
+    "category": "Kids",
+    "image": "assets/img/2692136d-265a-4bf1-a735-6e055fe6834b-39d5a6d108d59cc62635d-582ce7.png",
+    "video": "assets/video/channels/NICKJRHD.mp4"
+   },
+   {
+    "id": "SPORT1HD",
+    "name": "SPORTS 1 HD",
+    "category": "Sports",
+    "image": "assets/img/13e92f51-bc1b-4c11-9678-ffc0c99e6a21-1411b116cbe52f38164f-ac2ba9.png",
+    "video": "assets/video/channels/SPORT1HD.mp4"
+   },
+   {
+    "id": "MOONB",
+    "name": "MOONBUG",
+    "category": "Kids",
+    "image": "assets/img/d4855b1b-4877-4212-855d-433b7e4e0118-be65a591236f14ce8d97-8a7d3f.png",
+    "video": "assets/video/channels/MOONB.mp4"
+   },
+   {
+    "id": "CARNITO",
+    "name": "CARTOONITO",
+    "category": "Kids",
+    "image": "assets/img/97a7c712-e551-4d39-a869-ca7aedc9f8df-f634dff8c6cfea4725c7-2e7210.png",
+    "video": "assets/video/channels/CARNITO.mp4"
+   },
+   {
+    "id": "TDC",
+    "name": "TDC",
+    "category": "Entertainment",
+    "image": "assets/img/07799a48-678f-4307-9252-283c32a7b377-ac7e4c63e6a81048b9edc-88fdcd.png",
+    "video": "assets/video/channels/TDC.mp4"
+   },
+   {
+    "id": "TVN",
+    "name": "TVN",
+    "category": "Entertainment",
+    "image": "assets/img/031580bb-0441-45c1-a39b-b9cf8184b3f2-25fd0463575810fc16bd9-1da6d7.png",
+    "video": "assets/video/channels/TVN.mp4"
+   },
+   {
+    "id": "MTVHD",
+    "name": "MTV HD +",
+    "category": "Entertainment",
+    "image": "assets/img/e9ff7dd1-b52a-416f-8e2f-7f886313849b-1767d884babad25e0bf8-871b3a.png",
+    "video": "assets/video/channels/MTVHD.mp4"
+   },
+   {
+    "id": "HITS",
+    "name": "HITS MOVIES",
+    "category": "Entertainment",
+    "image": "assets/img/4f11b697-b4d0-49a9-b0db-49300f05a212-9f6642e63e1c126d11fe-7426dd.png",
+    "video": "assets/video/channels/HITS.mp4"
+   },
+   {
+    "id": "STARSPSL1",
+    "name": "STAR SPORTS SELECT HD 1",
+    "category": "Sports",
+    "image": "assets/img/3307b957-736f-4171-8582-0b700c9bb849-46a6e0e77442ebf9e13b-af5c2f.png",
+    "video": "assets/video/channels/STARSPSL1.mp4"
+   },
+   {
+    "id": "ALJAZEERAINT",
+    "name": "AL JAZEERA INT",
+    "category": "International News",
+    "image": "assets/img/743d79c3-437b-4e91-bf3b-ffd736540510-12109db95a8a7681589ee-4ef8da.png",
+    "video": "assets/video/channels/ALJAZEERAINT.mp4"
+   },
+   {
+    "id": "CURIOSITY",
+    "name": "CURIOSITY STREAM",
+    "category": "Documentary",
+    "image": "assets/img/b55b8cf0-be60-4e8a-89a5-ef6f517c3ee2-e9601b83c8d371a92ad9-34dc82.png",
+    "video": "assets/video/channels/CURIOSITY.mp4"
+   },
+   {
+    "id": "SKYNEWS",
+    "name": "SKY NEWS HD",
+    "category": "International News",
+    "image": "assets/img/3bfa2f0a-e0e7-4343-a3b2-e90c4141b3c6-7ec2e759fb0b3e1b466a-566451.png",
+    "video": "assets/video/channels/SKYNEWS.mp4"
+   },
+   {
+    "id": "CNA",
+    "name": "CHANNEL NEWS ASIA",
+    "category": "International News",
+    "image": "assets/img/fe43b4cb-b715-4fcd-ae52-68b3c6bd215a-fac3425d8749d7df8f1f-5bd94d.png",
+    "video": "assets/video/channels/CNA.mp4"
+   },
+   {
+    "id": "CGTN",
+    "name": "CGTN",
+    "category": "Documentary",
+    "image": "assets/img/f5f4d374-c100-4033-b305-5c928982e41e-0d69e7e12f11021f147ae-dbb785.png",
+    "video": "assets/video/channels/CGTN.mp4"
+   },
+   {
+    "id": "TRTWORLD",
+    "name": "TRT WORLD",
+    "category": "International News",
+    "image": "assets/img/d3aff5fc-3194-4a33-8587-4966d49deacd-b62e3d112935b36765e1-8bf950.png",
+    "video": "assets/video/channels/TRTWORLD.mp4"
+   },
+   {
+    "id": "RUSSIATODAY",
+    "name": "RUSSIA TODAY",
+    "category": "International News",
+    "image": "assets/img/3f6d59cd-bb96-4026-b009-2f75c93cd463-d3f6c686b674fef5c963-3d5608.png",
+    "video": "assets/video/channels/RUSSIATODAY.mp4"
+   },
+   {
+    "id": "NDTV",
+    "name": "NDTV 24X7",
+    "category": "International News",
+    "image": "assets/img/f3a74b75-b52c-4125-9b70-668f6c81bcb8-443fdcd97ee0410b2b213-43410d.png",
+    "video": "assets/video/channels/NDTV.mp4"
+   },
+   {
+    "id": "NHK",
+    "name": "NHK WORLD JAPAN",
+    "category": "International News",
+    "image": "assets/img/acd26f60-4d72-4551-beac-9f63197820f4-95b9765213bc47b57d73-66486d.png",
+    "video": "assets/video/channels/NHK.mp4"
+   },
+   {
+    "id": "ALJAZEERAARB",
+    "name": "AL JAZEERA ARABIC",
+    "category": "International News",
+    "image": "assets/img/821d3cf9-cc5c-45ff-b0bc-0dd69d797eeb-72413d010192810affb424-f3cb23.png",
+    "video": "assets/video/channels/ALJAZEERAARB.mp4"
+   },
+   {
+    "id": "RAIITALIA",
+    "name": "RAI ITALIA",
+    "category": "International News",
+    "image": "assets/img/c5a51090-bee6-493f-99cf-18e8b322fc31-00c770fc11258d88ffd10-19950a.png",
+    "video": "assets/video/channels/RAIITALIA.mp4"
+   },
+   {
+    "id": "FOODNETWORK",
+    "name": "FOOD NETWORK",
+    "category": "Documentary",
+    "image": "assets/img/13d26735-533e-4080-ab8c-d7b078bd9587-c10d6fbb1dd58654bdc35-cbdefe.png",
+    "video": "assets/video/channels/FOODNETWORK.mp4"
+   },
+   {
+    "id": "HUMMASALA",
+    "name": "HUM MASALA",
+    "category": "Documentary",
+    "image": "assets/img/80998da6-6692-4833-ad71-ef7714e44605-74bfb1115c597b7ce30f-7a5145.png",
+    "video": "assets/video/channels/HUMMASALA.mp4"
+   },
+   {
+    "id": "LOVENATURE",
+    "name": "LOVE NATURE",
+    "category": "Documentary",
+    "image": "assets/img/d5bd30c9-4dda-4f4c-8a99-371f70f9eb51-fba6861f10d3757d2edbb-9cc690.png",
+    "video": "assets/video/channels/LOVENATURE.mp4"
+   },
+   {
+    "id": "FASHIONTV",
+    "name": "FASHION TV",
+    "category": "Entertainment",
+    "image": "assets/img/6a46e8e0-7629-42a1-8f00-1dc2a2894315-abc10a801eab8274e2e4c-356470.png",
+    "video": "assets/video/channels/FASHIONTV.mp4"
+   },
+   {
+    "id": "GEOENTERTAINMENT",
+    "name": "GEO",
+    "category": "Entertainment",
+    "image": "assets/img/b8a0ef37-cd9f-4a03-9f61-30e95399533a-2b86f35a64c72efb3861-fc0358.png",
+    "video": "assets/video/channels/GEOENTERTAINMENT.mp4"
+   },
+   {
+    "id": "HITSNOW",
+    "name": "HITS NOW",
+    "category": "Entertainment",
+    "image": "assets/img/0666f766-3a1c-4430-9f21-ae2bd118c965-acbff6e421d54b7310253-48f7d3.png",
+    "video": "assets/video/channels/HITSNOW.mp4"
+   },
+   {
+    "id": "MYZEN",
+    "name": "MYZEN",
+    "category": "Entertainment",
+    "image": "assets/img/3f501192-6975-45cd-9c82-dc1a846a050f-63d3db1f5f1962af0f76-df0556.png",
+    "video": "assets/video/channels/MYZEN.mp4"
+   },
+   {
+    "id": "HUMTV",
+    "name": "HUM TV",
+    "category": "Entertainment",
+    "image": "assets/img/74494bf2-dd7e-49cd-a6a0-da8933a430eb-cc8ce3fb5ed4ec262f5e-6ed47d.png",
+    "video": "assets/video/channels/HUMTV.mp4"
+   },
+   {
+    "id": "HALLMOVIES",
+    "name": "HALLMOVIES",
+    "category": "Entertainment",
+    "image": "assets/img/17a2bdbd-c3ad-4459-bba3-d40b97c2d778-5810aff1213dd9d02ab81-d222c5.png",
+    "video": "assets/video/channels/HALLMOVIES.mp4"
+   }
+  ]
+ },
+ "about": {
+  "name": "Boutique Hotels",
+  "descriptionHtml": "<p>Located in the heart of Malé, the hotel is within walking distance of charming cafés, local shops, vibrant tourist attractions, the lively local and fish market, peaceful parks, and the beautiful waterfront offering everything you could desire right at your doorstep.</p>",
+  "image": "assets/img/about-lobby.jpg",
+  "website": "https://www.booking.com/",
+  "websiteLabel": "Visit Website",
+  "qrCaption": "Scan the QR Code to browse our website",
+  "socials": [
+   {
+    "name": "Facebook",
+    "icon": "assets/img/90f32c7d-e463-4474-8bad-51377311d345-d4eccaa44dfb9eefd84c-9c9f3d.png",
+    "url": "https://www.facebook.com/"
+   },
+   {
+    "name": "Instagram",
+    "icon": "assets/img/30e62992-7894-4493-87bd-e1192515ff13-5beacf84c102722e35b2-3c5b1b.png",
+    "url": "https://www.instagram.com/"
+   },
+   {
+    "name": "TripAdvisor Link",
+    "icon": "assets/img/72c725a5-1ef5-4980-aed2-e58be06f186c-6b026abb9d12ac371a23-78529b.png",
+    "url": "https://www.tripadvisor.com/"
+   }
+  ]
+ }
+}

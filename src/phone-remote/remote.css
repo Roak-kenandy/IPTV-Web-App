@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(ellipse at top, #2a2a2e, #050505 70%);
+  color: #f2f2f2;
+  font-family: Roboto, system-ui, sans-serif;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+.page {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: max(14px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #bbb;
+  text-align: center;
+}
+
+.status i {
+  flex: none;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #e0a526;
+  animation: pulse 1.2s ease-in-out infinite;
+}
+
+.status--connected i {
+  background: #3ccf6e;
+  animation: none;
+}
+
+.status--lost i,
+.status--missing i {
+  background: #e5484d;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.remote {
+  width: min(100%, 330px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 28px 26px 30px;
+  border-radius: 60px 60px 80px 80px;
+  background: linear-gradient(180deg, #1c1c1e 0%, #121213 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    0 20px 50px rgba(0, 0, 0, 0.7);
+  transition: opacity 0.3s;
+}
+
+.remote.is-off {
+  opacity: 0.55;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row--top {
+  padding: 0 6px;
+}
+
+.row__gap {
+  flex: 1;
+}
+
+.key {
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #2b2b2e;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    0 3px 6px rgba(0, 0, 0, 0.6);
+  transition:
+    transform 0.08s,
+    background 0.08s;
+}
+
+.key:active {
+  transform: scale(0.93);
+  background: #3a3a3e;
+}
+
+.key small {
+  font-size: 10px;
+  color: #bbb;
+  margin-top: 1px;
+}
+
+.key--round {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.key--small {
+  width: 52px;
+  height: 52px;
+}
+
+.key--power {
+  width: 58px;
+  height: 58px;
+  color: #ff4040;
+}
+
+.key--home {
+  width: 72px;
+  height: 72px;
+}
+
+.dpad {
+  position: relative;
+  width: 236px;
+  height: 236px;
+  border-radius: 50%;
+  background: #232325;
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.07),
+    0 4px 10px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+}
+
+.dpad__btn {
+  position: absolute;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.dpad__btn:active {
+  transform: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dpad__up,
+.dpad__down {
+  left: 25%;
+  width: 50%;
+  height: 33%;
+}
+
+.dpad__up {
+  top: 0;
+}
+
+.dpad__down {
+  bottom: 0;
+}
+
+.dpad__left,
+.dpad__right {
+  top: 25%;
+  width: 33%;
+  height: 50%;
+}
+
+.dpad__left {
+  left: 0;
+}
+
+.dpad__right {
+  right: 0;
+}
+
+.tri {
+  width: 0;
+  height: 0;
+  border: 9px solid transparent;
+}
+
+.tri--up {
+  border-bottom: 12px solid #ddd;
+  border-top-width: 0;
+}
+
+.tri--down {
+  border-top: 12px solid #ddd;
+  border-bottom-width: 0;
+}
+
+.tri--left {
+  border-right: 12px solid #ddd;
+  border-left-width: 0;
+}
+
+.tri--right {
+  border-left: 12px solid #ddd;
+  border-right-width: 0;
+}
+
+.dpad__ok {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 104px;
+  height: 104px;
+  margin: -52px 0 0 -52px;
+  border-radius: 50%;
+  background: #303033;
+}
+
+.dpad__ok b {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.channels {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.key--pill {
+  width: 96px;
+  height: 46px;
+  border-radius: 23px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.brand {
+  margin-top: 4px;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  filter: invert(1);
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+@media (max-height: 760px) {
+  .remote {
+    gap: 14px;
+    padding: 20px 22px 22px;
+  }
+
+  .dpad {
+    width: 210px;
+    height: 210px;
+  }
+
+  .dpad__ok {
+    width: 92px;
+    height: 92px;
+    margin: -46px 0 0 -46px;
+  }
+
+  .key--round {
+    width: 56px;
+    height: 56px;
+  }
+
+  .key--home {
+    width: 64px;
+    height: 64px;
+  }
+
+  .channels {
+    flex-direction: row;
+  }
+
+  .brand {
+    display: none;
+  }
+}
